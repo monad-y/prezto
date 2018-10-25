@@ -9,3 +9,13 @@
 if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
+
+## aliases
+
+alias lf="ls -Fasl"
+alias dus="du -s"
+alias lv="lv +i"
+
+alias @="emacs -nw"
+alias ta="tmux a -t"
+alias c="docker"
