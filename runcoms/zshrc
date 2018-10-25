@@ -11,3 +11,8 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
+zstyle ':prezto:module:editor:info:keymap:primary' format ' %B%F{1}❯%F{8}❯%f%b'
+
+eval "$(rbenv init -)"
